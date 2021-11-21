@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       routes: {
         '/': (context) => const LoginScreen(),
-        '/': (context) => const RegisterScreen(),
+        '/register': (context) => const RegisterScreen(),
       },
     );
   }
